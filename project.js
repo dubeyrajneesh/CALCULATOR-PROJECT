@@ -35,6 +35,6 @@ const calculate= () =>{
         ans= num1/num2 ;
     }
 
-    document.querySelector("#ans").innerHTML= ` Result is : ${ans}` ;
+    document.querySelector("#ans").innerHTML= `The Result of the two number that you have entered is : ${ans}` ;
 
 }
