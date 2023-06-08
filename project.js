@@ -16,7 +16,8 @@ const calculate= () =>{
     let ans = 0.00;
     if(operation === 'add')
     {
-        ans= num1 + num2 ;
+        
+      ans = num1 + num2 ;
     }
 
     else if(operation === 'sub')

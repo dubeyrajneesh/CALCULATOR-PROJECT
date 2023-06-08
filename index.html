@@ -5,15 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator Project</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
 </head>
 <body>
-    <h1> My First Project using HTML and JS</h1>
+    <h1> My First Project using HTML, CSS and Javascript</h1>
     <br>
-    <h2> Calculator Project</h2>
+    <h3> Calculator Project</h3>
+    <br>
+    <br>
 
-    <div>
-        <input type="text" id="num1" placeholder="Enter Num1"> &nbsp &nbsp 
-        <input type="text" id="num2" placeholder=" Enter Num2"> &nbsp  
+    <div id="div1">
+        <div id="div2">
+      <div id="div3"><span id="change1" >Num1 : </span><input type="text" id="num1" placeholder="Enter 1st Number"> &nbsp &nbsp </div> <br>
+      <div id="div4"> <span id="change2"> Num2 : </span><input type="text" id="num2" placeholder=" Enter 2nd Number"> &nbsp  </div><br>
 
         <select id="myselection">
 
@@ -22,14 +28,19 @@
             <option value="mul" id="mymul">Multiplication</option>
             <option value="div" id="mydiv">Division</option>
         </select>
+        <br>
+
+    </div>
 
         <br><br>
-        <button id="calculate" onclick="calculate()"> Calculate</button><br>
+       <button id="calculate" onclick="calculate()"> Calculate</button>
+       <br>
         <h2 id="ans"></h2> 
         
     </div>
 
     <script src="./project.js"></script>
+    
     
 </body>
 </html>
